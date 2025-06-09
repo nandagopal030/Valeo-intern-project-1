@@ -1,0 +1,31 @@
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(139, 232, 0);
+}
+
+form{
+    margin: 200px 200px ;
+      border: 5px solid rgb(139, 232, 0);
+      padding: 100px;
+    /* background-color: rgb(2, 1, 0); */
+    background: #2682a6;
+background: linear-gradient(90deg,rgba(38, 130, 166, 1) 0%, rgba(87, 199, 133, 1) 33%, rgba(122, 204, 121, 1) 77%, rgba(237, 221, 83, 1) 94%);
+     
+}
+.material-symbols-outlined{
+    height: 10px;
+}
+.form-main{
+    padding: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  form{
+    padding: auto;
+    margin: auto;
+  }
+}

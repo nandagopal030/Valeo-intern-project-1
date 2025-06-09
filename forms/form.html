@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valeo forms</title>
+     <!-- -----css links  ------ -->
+      <link rel="stylesheet" href="form.css">
+      <!-- Fonttttttttttttttttttt -->
+       <!-- Material Symbols Outlined CDN -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+<body>
+
+    <div class="heading">
+    <u><h2>Enter your details!!</h2></u>    
+    </div>
+
+    <section class="form-section">
+    <form class="form-main">
+          <div class="form-main">
+             <label for="Fname">FIRST NAME :</label>
+           <span class="material-symbols-outlined">id_card</span>  <input type="text" id="fname" value="first name"> <br>
+          </div>
+        <div  class="form-main">
+        <label for="Lname">LAST NAME :</label>
+      <span class="material-symbols-outlined">id_card</span>  <input type="text" id="lname" value ="last name"><br>
+        </div>
+      
+         <div class="form-main">
+         <label for="Email">EMAIL :</label>
+       <span class="material-symbols-outlined">mail</span>  <input type="email" id="email" value ="E-mail Address"><br>
+         </div>
+        
+         <div class="form-main">
+         <label for="Phone">PHONE # : </label>
+     <span class="material-symbols-outlined">contact_phone</span>    <input type="Phone" id="phone" value ="(+91)(92939234823)"><br>
+         </div>
+         
+         <div class="form-main">
+         <label for="Address">ADDRESS :</label>
+      <span class="material-symbols-outlined">home</span>   <input type="address" id="address" value ="Address"><br>
+         </div>
+       
+         <div class="form-main">
+         <label for="CITY">CITY :</label>
+   <span class="material-symbols-outlined">location_city</span>      <input type="city" id="city" value ="city"><br>
+         </div>
+        
+         <div class="form-main">
+         <label for="STATE">STATE :</label>
+         <span class="material-symbols-outlined">public</span>   <input type="state" id="state" value ="state"><br>
+         </div>
+        
+         <div class="form-main">
+         <label for="ZIP-CODE">ZIP-CODE : </label>
+      <span class="material-symbols-outlined">commit</span>   <input type="zip-code" id="zipcode" value ="zip-code"><br>
+         </div>
+       
+        <div class="form-main">
+        <label for="Gender">Gender :</label><br>
+        <input type="radio" id="html" name="fav_language" value="Male">
+        <label for="Male">Male  </label><br>
+        <input type="radio" id="css" name="fav_language" value="Female">
+        <label for="Female">Female  </label><br>
+         <input type="radio" id="css" name="fav_language" value="Rather not to say">
+        <label for="Rather">Rather not to say</label><br>
+        </div>
+        
+       <div>
+        <label for="cars">Choose Your Favourate car</label>
+         <select id="cars" name="cars">
+         <option value="volvo">Volvo</option>
+         <option value="saab">Saab</option>
+         <option value="fiat">Fiat</option>
+         <option value="audi">Audi</option>
+         </select>
+         <input type="submit">
+       </div>
+    </form>
+     </section>
+    
+</body>
+</html>
